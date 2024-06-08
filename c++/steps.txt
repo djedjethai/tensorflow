@@ -1,0 +1,12 @@
+wget https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-cpu-linux-x86_64-2.15.0.tar.gz
+
+tar -xvf libtensorflow-cpu-linux-x86_64-2.15.0.tar.gz
+
+got 2 files: lib and include, then create src and build 
+
+tensorflow_cpp_project/
+├── include/          # TensorFlow headers
+├── lib/              # TensorFlow libraries
+├── src/              # Your source files
+└── build/            # Build directory
+

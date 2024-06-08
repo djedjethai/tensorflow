@@ -1,0 +1,7 @@
+set main.py
+set requirements.txt // which are the list of dependencies
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+deactivate
+
